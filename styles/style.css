@@ -15,6 +15,7 @@ html {
 }
 
 body {
+  background-color: #fdafe7;
   margin: auto;
   height: inherit;
   position: relative;
@@ -45,7 +46,7 @@ video {
   width: min-content;
   z-index: 2;
   padding-top: 60px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 116px;
   font-weight: 800;
   text-align: center;
@@ -61,11 +62,9 @@ video {
   z-index: 3;
   display: flex;
   justify-self: right;
-  align-items: center;
-  justify-content: center;
   width: 742px;
-  height: 142px;
-  font-family: 'Raleway';
+  padding: 44px 36px;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 35px;
   font-weight: 400;
   text-transform: none;
@@ -75,8 +74,8 @@ video {
   color: #000;
   background-color: #fff;
   border-radius: 20px;
-  border: black solid 2px;
-  box-shadow: 0 14px 0 0 #000;
+  border: currentColor solid 2px;
+  box-shadow: 0 14px 0 0 currentColor;
 }
 
 .page__heading::after {
