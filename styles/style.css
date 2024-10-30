@@ -54,7 +54,7 @@ video {
   text-transform: uppercase;
 }
 
-.page__heading::before {
+.page__heading:hover::before {
   content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
   position: absolute;
   top: 180px;
